@@ -1,10 +1,4 @@
-let personagem = {
-    nome: 'Vinicius',
-    idade: 16,
-    carros: [
-        {modelo: 'Fiat', cor: 'preto'},
-        {modelo: 'Ferrari', cor: 'vermelho'}
-    ]
-}
+let fruits = ['Maça', 'Uva', 'Laranja', 'Banana']
 
-console.log(personagem.carros[1].modelo)
+fruits.reverse()
+console.log(fruits)
