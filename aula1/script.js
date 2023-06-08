@@ -1,8 +1,8 @@
-function clicou() {
-    const teste = document.querySelector('#teste')
-    const ul = document.querySelector('ul')
-    
-    let button = document.createElement("button")
-    button.innerHTML = "botão"
-    ul.after(button)
-}
+let cars = [
+    { brand: 'Fiat', year: 2022 },
+    { brand: 'Bmw', year: 2018},
+    { brand: 'Ferrari', year: 2020}
+]
+
+cars.sort((a, b) = > )
+console.log(cars)
