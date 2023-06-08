@@ -1,9 +1,11 @@
-let x = 40
-let y = 10
-let pct = calcPct(x, y)
-console.log(`${pct}% de ${x} é ${y}`)
+let fruits = ['Maça', 'Uva', 'Banana']
 
-function calcPct(a , b) {
-    let pct = (b / a) * 100
-    return pct
+for (let i = 0; i < 3; i++) {
+    console.log(fruits[i])
+}
+
+let i = 1
+while (i <= 100) {
+    console.log(i)
+    i++
 }
