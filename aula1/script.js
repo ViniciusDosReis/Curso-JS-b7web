@@ -1,6 +1,7 @@
-function clicou() {
-    const teste = document.querySelector('#text')
-    const ul = teste.querySelector('ul')
+
+function soltou() {
     
-   
 }
+
+const input = document.querySelector('input')
+input.addEventListener('keyup', soltou)
