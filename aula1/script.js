@@ -1,29 +1,17 @@
 class Person {
-
+    
+    static hands = 2
     age = 0
-    steps = 0
 
-    constructor (name) {
+    constructor(name) {
         this.name = name
     }
 
-    takeAStep() {
-        this.steps++
+    static sayHi() {
+        console.log()
     }
 
-    setAge(newAge) {
-        if (typeof newAge == 'number') {
-            this.age = newAge
-        } else {
-            console.log('Idade não aceita. (Só números)')
-        }
-    }
 }
 
-let p1 = new Person('João')
-let p2 = new Person("Maria")
-let p3 = new Person("Pedro")
+let p1 = new Person("Bonieky")
 
-p1.setAge(20)
-
-console.log(`${p1.name} tem ${p1.age} anos.`)
